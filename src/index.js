@@ -1,4 +1,4 @@
-const classNameRegex = /className=\"([0-9a-zA-Z\-\_\s]*)\"/ig;
+const classNameRegex = /className=\"([0-9a-zA-Z\-\_\s\/]*)\"/gi;
 const classNamesRegex = /classnames\(((.|\s)*?)\)/img;
 const stringBetweenQuotesRegex = /(["'])(\\?.)*?\1/img;
 let ignore = [];
